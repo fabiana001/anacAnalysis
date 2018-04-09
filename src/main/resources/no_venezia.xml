@@ -1,0 +1,1707 @@
+<legge190:pubblicazione xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:legge190="legge190_1_0" xsi:schemaLocation="legge190_1_0 datasetAppaltiL190.xsd">
+    <metadata>
+        <titolo>Pubblicazione 1 legge 190</titolo>
+        <abstract>Pubblicazione 1 legge 190</abstract>
+        <dataPubbicazioneDataset>2018-02-13</dataPubbicazioneDataset>
+        <entePubblicatore>C.I.S.A.P.</entePubblicatore>
+        <dataUltimoAggiornamentoDataset>2018-02-13</dataUltimoAggiornamentoDataset>
+        <annoRiferimento>2017</annoRiferimento>
+        <urlFile>
+            http://www.servizipubblicaamministrazione.it/siti/csp1207/l190/DataSetL1902017.xml
+        </urlFile>
+        <licenza>IODL</licenza>
+    </metadata>
+    <data>
+        <lotto>
+            <cig>Z891DC6928</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                AFFIDAMENTO DEL SERVIZIO DI MANUTENZIONE DEL CENTRALINO E DEL SISTEMA DI TELEFONIA VOISPEED E FORNITURA DELLA RELATIVA LICENZA DI USO ALLA DITTA INFOSISTEMI DI TORINO.PERIODO FEBBRAIO 2017- FEBBRAIO 2
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>05052560017</codiceFiscale>
+                    <ragioneSociale>Infosistemi srl</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>05052560017</codiceFiscale>
+                    <ragioneSociale>Infosistemi srl</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>1230.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-02-15</dataInizio>
+                <dataUltimazione>2018-02-15</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>1230.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>Z8B1D5007D</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                ACQUISIZIONE SERVIZI DI RICOVERO MINORI IN STRUTTURE RESIDENZIALI. IMPEGNO DI SPESA ANNO 2017.
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>00000000000</codiceFiscale>
+                    <ragioneSociale>COOPERATIVA CEMEA PIEMONTA</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>00000000000</codiceFiscale>
+                    <ragioneSociale>COOPERATIVA CEMEA PIEMONTA</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>19910.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-01-01</dataInizio>
+                <dataUltimazione>2017-12-31</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>Z221D50295</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                ACQUISIZIONE SERVIZI RICOVERO MINORI IN STRUTTURE RESIDENZIALI.
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>00000000000</codiceFiscale>
+                    <ragioneSociale>COOPERATIVA ESSERCI</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>00000000000</codiceFiscale>
+                    <ragioneSociale>COOPERATIVA ESSERCI</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>9955.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-01-01</dataInizio>
+                <dataUltimazione>2017-12-31</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>Z6A1D5035C</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                ACQUISIZIONE SERVIZI DI RICOVERO MINORI IN STRUTTURE RESIDENZIALI.
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>00000000000</codiceFiscale>
+                    <ragioneSociale>CASA BENEFICA</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>00000000000</codiceFiscale>
+                    <ragioneSociale>CASA BENEFICA</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>19826.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-01-01</dataInizio>
+                <dataUltimazione>2017-12-31</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>ZEB1D503D0</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                ACQUISIZIONE SERVIZI DI RICOVERO MINORI IN STRUTTURE RESIDENZIALI.
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>00000000000</codiceFiscale>
+                    <ragioneSociale>COOPERATIVA ARMONIA</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>00000000000</codiceFiscale>
+                    <ragioneSociale>COOPERATIVA ARMONIA</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>8293.71</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-01-01</dataInizio>
+                <dataUltimazione>2017-12-31</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>ZEC1DACB9C</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>ACQUISIZIONE SERVIZI DI SOSTREGNO EDUCATIVO MINORI</oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>02165980018</codiceFiscale>
+                    <ragioneSociale>COOP.SOCIALE FRASSATI</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>02165980018</codiceFiscale>
+                    <ragioneSociale>COOP.SOCIALE FRASSATI</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>4441.90</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-01-01</dataInizio>
+                <dataUltimazione>2017-12-31</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>ZE01DAD22E</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                ACQUISIZIONE SERVIZI SOSTEGN EDUCATIVO DI MINORI IN CENTRI DIURNI.
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>04795800012</codiceFiscale>
+                    <ragioneSociale>CASA BENEFICA</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>04795800012</codiceFiscale>
+                    <ragioneSociale>CASA BENEFICA</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>8460.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-01-01</dataInizio>
+                <dataUltimazione>2017-12-31</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>Z591DADBE0</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                ACQUISIZIONE SERVIZI DI SOSTEGNO EDUCATIVO DI MINORI IN CENTRI DIURNI.
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>05442580014</codiceFiscale>
+                    <ragioneSociale>TERRA MIA</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>05442580014</codiceFiscale>
+                    <ragioneSociale>TERRA MIA</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>4000.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-01-01</dataInizio>
+                <dataUltimazione>2017-12-31</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>ZA81DADE8A</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                ACQUISIZIONE SERVIZI DI SOSTEGNO EDUCATIVO MINORI IN CENTRI DIURNI.
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>05188910011</codiceFiscale>
+                    <ragioneSociale>STRANAIDEA ONLUS</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>05188910011</codiceFiscale>
+                    <ragioneSociale>STRANAIDEA ONLUS</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>2008.57</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-01-01</dataInizio>
+                <dataUltimazione>2017-12-31</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>Z2F1E2B743</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>BUONO D'ORDINE N.2/2017 FORNITURA BUSTE CON LOGO</oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>07755280018</codiceFiscale>
+                    <ragioneSociale>LA BOTTEGA s.c.s.</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>07755280018</codiceFiscale>
+                    <ragioneSociale>LA BOTTEGA s.c.s.</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>160.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-04-04</dataInizio>
+                <dataUltimazione>2017-04-04</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>160.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>ZE01E2724B</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                BUONO D'ORDINE N.3/2017 SEMINARIO DI FORMAZIONE L'ABBANDONO ED IL MALTRATTAMENTO DEGLI ANZIANI
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>07046960014</codiceFiscale>
+                    <ragioneSociale>LA BOTTEGA DEL POSSIBILE</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>07046960014</codiceFiscale>
+                    <ragioneSociale>LA BOTTEGA DEL POSSIBILE</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>46.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-04-26</dataInizio>
+                <dataUltimazione>2017-04-26</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>46.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>ZA41E2B867</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                BUONO D'ORDINE N.4/2017 SEMINARIO DI FORMAZIONE LE NOVITA' DEL CONTO ANNUALE
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>00000000000</codiceFiscale>
+                    <ragioneSociale>PUBBLIFORMEZ sas</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>00000000000</codiceFiscale>
+                    <ragioneSociale>PUBBLIFORMEZ sas</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>302.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-04-28</dataInizio>
+                <dataUltimazione>2017-04-28</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>300.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>Z8A1E271AA</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                BUONO N.1/2017: SEMINARIO DI FORMAZIONE LA CRISI ADOLESCENZIALE COME COMPLESSA DINAMICA DELL'APPRENMDIMENTO DELLA SOLITUDINE DELL'ESSERE ASSIEME
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>00869492001</codiceFiscale>
+                    <ragioneSociale>RIFLESSI srl</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>00869492001</codiceFiscale>
+                    <ragioneSociale>RIFLESSI srl</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>80.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-04-06</dataInizio>
+                <dataUltimazione>2017-04-06</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>80.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>Z291E6CFBA</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                FORNITURA DELLA PIATTAFORMA INFORMATICA AMALTEA, SOLUZIONE SOFTWARE DI CONTABILITÀ ECONOMICO PATRIMONIALE AI SENSI DEL D.LGS 118/2011. AFFIDAMENTO DIRETTO ALLA DITTA SISCOM S.P.A. DI CERVERE (CN) TRA
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>01778000040</codiceFiscale>
+                    <ragioneSociale>SISCOM spa</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>01778000040</codiceFiscale>
+                    <ragioneSociale>SISCOM spa</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>1331.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-05-09</dataInizio>
+                <dataUltimazione>2017-05-31</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>1331.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>Z011EBAFDE</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                AFFIDAMENTO DIRETTO ALLA DITTA ENTI REV DI SALUZZO DEL SERVIZIO PER L'ELABORAZIONE E L'INVIO TELEMATICO DELLE LIQUIDAZIONI IVA TRIMESTRALI - ANNO 2017. CIG Z011EBAFDE.
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>02037190044</codiceFiscale>
+                    <ragioneSociale>DITTA ENTI REV.</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>02037190044</codiceFiscale>
+                    <ragioneSociale>DITTA ENTI REV.</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>120.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-01-01</dataInizio>
+                <dataUltimazione>2017-12-31</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>Z3E1EAC745</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                BUONO D'ORDINE N.5/2017:ACQUISIZIONE MANUTENZIONE ORDINARIA DELLE SEDI CONSORTILI
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>07755280018</codiceFiscale>
+                    <ragioneSociale>LA BOTTEGA scs</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>07755280018</codiceFiscale>
+                    <ragioneSociale>LA BOTTEGA scs</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>95.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-05-18</dataInizio>
+                <dataUltimazione>2017-06-18</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>40.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>Z4F1EAC6F3</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                BUONO D'ORDINE N.6/2017:ACQUISIZIONE SERVIZI DI FORMAZIONE: I NUOVI LEA SANITARI E SOCIO SANITARI
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>07046960014</codiceFiscale>
+                    <ragioneSociale>La bottega del Possibile</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>07046960014</codiceFiscale>
+                    <ragioneSociale>La bottega del Possibile</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>57.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-05-22</dataInizio>
+                <dataUltimazione>2017-05-30</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>55.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>Z7A1F112AA</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                AFFIDAMENTO DIRETTO PER L'ACQUISIZIONE DI N. 1 IMPIANTO DI CONDIZIONAMENTO DA POSIZIONARE NELLA STANZA SERVER - CIG Z7A1F112AA - IMPEGNO DI SPESA.
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>09773833001</codiceFiscale>
+                    <ragioneSociale>PALUMBO MASSIMILIANO</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>09773833001</codiceFiscale>
+                    <ragioneSociale>PALUMBO MASSIMILIANO</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>1700.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-06-01</dataInizio>
+                <dataUltimazione>2017-07-31</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>1700.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>ZE61EE8754</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                BUONO N.7/2016. CORSO DI FORMAZIONE "TECNICHE DI RELAZIONE"
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>02240621207</codiceFiscale>
+                    <ragioneSociale>3F FORMER</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>02240621207</codiceFiscale>
+                    <ragioneSociale>3F FORMER</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>1600.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-06-13</dataInizio>
+                <dataUltimazione>2017-06-13</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>1600.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>Z6C1E1DF55</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>ADESIONE CONVENZIONE CONSIP SERVER 1 LOTTO 1</oggetto>
+            <sceltaContraente>
+                26-AFFIDAMENTO DIRETTO IN ADESIONE AD ACCORDO QUADRO/CONVENZIONE
+            </sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>04472901000</codiceFiscale>
+                    <ragioneSociale>CONVERGE SPA</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>04472901000</codiceFiscale>
+                    <ragioneSociale>CONVERGE SPA</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>5574.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-04-05</dataInizio>
+                <dataUltimazione>2017-05-31</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>5474.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>Z711F3100B</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                AFFIDAMENTO DIRETTO PER ACQUISIZIONE DI N.1 FORTIGATE-50E HARDWARE PLUS 1 YEAR MEDIANTE UTILIZZO PIATTAFORMA MEPA- DI CONSIP S.P.A. - CODICE CIG Z711F3100B - IMPEGNO DI SPESA.
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>00055849900</codiceFiscale>
+                    <ragioneSociale>bidue ststem</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>00055849900</codiceFiscale>
+                    <ragioneSociale>bidue ststem</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>884.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-07-19</dataInizio>
+                <dataUltimazione>2017-07-31</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>884.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>Z6B1F648F6</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                AFFIDAMENTO DIRETTO ALLA DITTA NET BULL S.R.L. PER L'ACQUISIZIONE BIENNALE DEL SERVIZIO DI GESTIONE DELLA POSTA ELETTRONICA CERTIFICATA (PEC) MEDIANTE UTILIZZO PIATTAFORMA MEPA- DI CONSIP S.P.A. COD
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>10847320016</codiceFiscale>
+                    <ragioneSociale>NET BULL</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>10847320016</codiceFiscale>
+                    <ragioneSociale>NET BULL</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>44.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-07-19</dataInizio>
+                <dataUltimazione>2019-07-19</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>44.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>Z351F3108A</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>ACQUISIZIONE SERVIZI MINORI RICOVERO INS TRUTTURE</oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>00000000000</codiceFiscale>
+                    <ragioneSociale>OMISSIS</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>00000000000</codiceFiscale>
+                    <ragioneSociale>OMISSIS</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>17874.29</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-07-01</dataInizio>
+                <dataUltimazione>2017-12-31</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>Z711F31106</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                ACQUISIZIONE SERVIZI DI RICOVERO MINORI IN STRUTTURE RESIDENZIALI
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>00000000000</codiceFiscale>
+                    <ragioneSociale>OMISSIS</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>00000000000</codiceFiscale>
+                    <ragioneSociale>OMISSIS</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>19242.86</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-04-11</dataInizio>
+                <dataUltimazione>2017-09-30</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>ZAC1F3113D</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>ACQUISIZIONE SERVIZI RICOVERO MINORI IN STRUTTURA</oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>00000000000</codiceFiscale>
+                    <ragioneSociale>OMISSIS</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>00000000000</codiceFiscale>
+                    <ragioneSociale>OMISSIS</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>35280.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-06-19</dataInizio>
+                <dataUltimazione>2017-12-31</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>ZB61F34CCD</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                ACQUISIZIONE SERVIZI SOSTEGNO MINORI MEDIANTE SOSTEGNO EDUCATIVO CENTRI DIURNI, INTERVENTI EDUCATIVI E INCONTRI MEDIATI
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>00000000000</codiceFiscale>
+                    <ragioneSociale>OMISSIS</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>00000000000</codiceFiscale>
+                    <ragioneSociale>OMISSIS</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>2947.62</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-07-01</dataInizio>
+                <dataUltimazione>2014-12-31</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>ZE71F34D43</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                ACQUISIZIONE SERVIZI SOSTEGNO MINORI: CENTRI DIURNI, INTERVENTI EDUCATIVI, INCONTRI MEDIATI
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>00000000000</codiceFiscale>
+                    <ragioneSociale>OMISSIS</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>00000000000</codiceFiscale>
+                    <ragioneSociale>OMISSIS</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>307.62</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-07-01</dataInizio>
+                <dataUltimazione>2017-12-31</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>Z391F34D6D</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                ACQUISIZIONE SERVIZI SOSTEGNO MINORI: CENTRI DIURNI, INTERVENTI EDUCATIVI,INCONTRI MEDIATI
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>00000000000</codiceFiscale>
+                    <ragioneSociale>OMISSIS</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>00000000000</codiceFiscale>
+                    <ragioneSociale>OMISSIS</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>952.38</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-07-01</dataInizio>
+                <dataUltimazione>2017-12-31</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>Z2C1DADF6F</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                ACQUISIZIONE SERVIZI DI SOSTEGNO AI MINORI: CENTRI DIURNI, INTERVENTI EDUCATIVI, INCONTRI MEDIATI.
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>00000000000</codiceFiscale>
+                    <ragioneSociale>CASA BENEFICA</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>00000000000</codiceFiscale>
+                    <ragioneSociale>CASA BENEFICA</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>952.38</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-07-01</dataInizio>
+                <dataUltimazione>2017-12-31</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>ZC 7204363</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                FORNITURA DI BUONI PASTO PER IL SERVIZIO SOSTITUTIVO MENSA PER I DIPENDENTI DEL CONSORZIO - ANNO 2017 . ADESIONE ALLA CONVENZIONE CONSIP DENOMINATA "BUONI PASTO 7" - LOTTO 7 - IN FAVORE DELLA DITTA
+            </oggetto>
+            <sceltaContraente>
+                26-AFFIDAMENTO DIRETTO IN ADESIONE AD ACCORDO QUADRO/CONVENZIONE
+            </sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>03543000370</codiceFiscale>
+                    <ragioneSociale>DITTA DAY RISTOSERVIVE SPA</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>03543000370</codiceFiscale>
+                    <ragioneSociale>DITTA DAY RISTOSERVIVE SPA</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>2131.60</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-11-01</dataInizio>
+                <dataUltimazione>2017-11-30</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>Z461FD7C13</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                AFFIDAMENTO DEL SERVIZIO DI MANUTENZIONE E ASSISTENZA TECNICA DEL SOFTWARE "SIS CADMO CARTELLA ON LINE". PERIODO: AGOSTO - DICEMBRE 2017 MEDIANTE PIATTAFORMA ME.PA - CODICE CIG. Z461FD7C13 - VARIAZION
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>08568990017</codiceFiscale>
+                    <ragioneSociale>CADMO srl</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>08568990017</codiceFiscale>
+                    <ragioneSociale>CADMO srl</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>3082.31</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-01-01</dataInizio>
+                <dataUltimazione>2017-12-31</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>ZCF2004A6D</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                BUONO N. 9 DEL 25/09/2017 CORSO AGGIORNAMENTO PERIODICO PER RAPPRESENTANTI LAVORATORI
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>00000000000</codiceFiscale>
+                    <ragioneSociale>CSAO</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>00000000000</codiceFiscale>
+                    <ragioneSociale>CSAO</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>90.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-10-01</dataInizio>
+                <dataUltimazione>2017-10-31</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>Z882078410</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                BUONO N.13 DEL 31/10/2017 CORSO DI FORMAZIONE SOCIETÀ OGGI
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>02119660013</codiceFiscale>
+                    <ragioneSociale>GRUPPO ABELE ASS.ONLUS</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>02119660013</codiceFiscale>
+                    <ragioneSociale>GRUPPO ABELE ASS.ONLUS</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>52.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-11-17</dataInizio>
+                <dataUltimazione>2017-11-17</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>50.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>Z48207837B</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                BUONO N.14 DEL 31/10/2017 CORSO FORMAZIONE FARE SOCIETA' OGGI
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>02119660013</codiceFiscale>
+                    <ragioneSociale>GRUPPO ABELE ASSOC.ONLUS</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>02119660013</codiceFiscale>
+                    <ragioneSociale>GRUPPO ABELE ASSOC.ONLUS</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>50.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-11-17</dataInizio>
+                <dataUltimazione>2017-11-17</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>Z0B20BD4B2</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                BUONO N. 16 DEL 13/11/2017 INTEGRAZIONE MANUTENZIONE PORTE
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>01652970019</codiceFiscale>
+                    <ragioneSociale>UNIMASS</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>01652970019</codiceFiscale>
+                    <ragioneSociale>UNIMASS</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>30.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-11-13</dataInizio>
+                <dataUltimazione>2017-11-30</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>Z3120F2C1A</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                BUONO N. 17 DEL 24/11/2017 AGENDE SERVIZIO OPERATORI SOCIALI
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>07755280018</codiceFiscale>
+                    <ragioneSociale>LA BOTTEGA</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>07755280018</codiceFiscale>
+                    <ragioneSociale>LA BOTTEGA</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>24.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-11-24</dataInizio>
+                <dataUltimazione>2017-12-31</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>Z1C1144A4I</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                AREA RISORSE E STAFF - NOLEGGIO FOTOCOPIATRICI/STAMPANTI MULTIFUNZIONE IN DOTAZIONE ALLE SEDI CONSORTILI - PERIODO 15.12.2017 - 14.12.2019. IMPEGNO DI SPESA IN FAVORE DELLA DITTA OLIVETTI S.P.A.- P.
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>02298700010</codiceFiscale>
+                    <ragioneSociale>olivetti spa</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>02298700010</codiceFiscale>
+                    <ragioneSociale>olivetti spa</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>3616.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-12-15</dataInizio>
+                <dataUltimazione>2019-12-14</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>Z022100ABF</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                AFFIDAMENTO ESTRAZIONE DATI PER PRATICA PENSIONISTICA DIPENDENTE (CIG Z022100ABF)
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>09024820152</codiceFiscale>
+                    <ragioneSociale>AGS SRL</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>09024820152</codiceFiscale>
+                    <ragioneSociale>AGS SRL</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>288.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-12-01</dataInizio>
+                <dataUltimazione>2017-12-31</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>Z1F1BE9BFE</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>ACQUISIZIONE PUBBLICAZIONE UFFICIO FINANZIARIO .IT</oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>01784630814</codiceFiscale>
+                    <ragioneSociale>FORMEL SRL</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>01784630814</codiceFiscale>
+                    <ragioneSociale>FORMEL SRL</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>250.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2018-01-01</dataInizio>
+                <dataUltimazione>2018-12-31</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>225.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>Z90214A25D</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                AREA RISORSE E STAFF - AFFIDAMENTO DEL SERVIZIO DI ASSISTENZA E MANUTENZIONE HARDWARE E SOFTWARE DELLE APPARECCHIATURE DI RILEVAZIONE PRESENZE IN DOTAZIONE AL CONSORZIO - ANNO 2018 - IMPEGNO DI SPESA
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>04827220015</codiceFiscale>
+                    <ragioneSociale>CODARINI</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>04827220015</codiceFiscale>
+                    <ragioneSociale>CODARINI</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>600.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2018-01-01</dataInizio>
+                <dataUltimazione>2018-12-31</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>Z59218C04</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                FORNITURA DINR. 2500 BUONI PASTO PER IL SERVIZIO SOSTITUTIVO MENSA PER I DIPENDENTI DEL CONSORZIO - ANNO 2018 . ADESIONE ALLA CONVENZIONE CONSIP DENOMINATA "BUONI PASTO 7" - LOTTO 7 - IN FAVORE DEL
+            </oggetto>
+            <sceltaContraente>
+                26-AFFIDAMENTO DIRETTO IN ADESIONE AD ACCORDO QUADRO/CONVENZIONE
+            </sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>03543000370</codiceFiscale>
+                    <ragioneSociale>DAY RISTOSERVICE SPA</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>03543000370</codiceFiscale>
+                    <ragioneSociale>DAY RISTOSERVICE SPA</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>14600.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2018-01-01</dataInizio>
+                <dataUltimazione>2018-12-31</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>Z051C7C90D</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                AFFIDAMENTO DEI SERVIZI DI POSTA UNIVERSALE MEDIANTE CONTO DI CREDITO ALLE POSTE ITALIANE SPA - PERIODO 01.01.2017 - 31.12.2017 - CIG Z051C7C90D
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>01114601006</codiceFiscale>
+                    <ragioneSociale>poste italiane</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>01114601006</codiceFiscale>
+                    <ragioneSociale>poste italiane</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>6500.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2018-01-01</dataInizio>
+                <dataUltimazione>2018-12-31</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>2738.98</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>Z6E2150FD6</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                AREA RISORSE E STAFF - AFFIDAMENTO DEI SERVIZI DI ASSISTENZA E MANUTENZIONE DEI PROGRAMMI SOFTWARE INSTALLATI IN LICENZA D'USO IN MATERIA DI CONTABILITÀ FINANZIARIA, ECONOMATO, PATRIMONIO, ATTI E PR
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>01778000040</codiceFiscale>
+                    <ragioneSociale>SISCOM</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>01778000040</codiceFiscale>
+                    <ragioneSociale>SISCOM</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>3041.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2018-01-01</dataInizio>
+                <dataUltimazione>2018-12-31</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>ZCA2175E5D</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                AREA RISORSE E STAFF - AFFIDAMENTO DEL SERVIZIO DI RESPONSABILE DEL SERVIZIO DI PREVENZIONE E PROTEZIONE AI SENSI DEL D.LGS. 81/08 - ANNO 2018 - CIG ZCA2175E5D - IMPEGNO DI SPESA.
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>00000000000</codiceFiscale>
+                    <ragioneSociale>BARBIERI OSCAR FULVIO</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>00000000000</codiceFiscale>
+                    <ragioneSociale>BARBIERI OSCAR FULVIO</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>2000.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2018-01-01</dataInizio>
+                <dataUltimazione>2018-12-31</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>Z92218EC0C</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                AFFIDAMENTO DEL SERVIZIO DI SUPPORTO E FORMAZIONE DEL PERSONALE NELLA GESTIONE ED AGGIORNAMENTO DEL SITO INTERNET DEL C.I.S.A.P E DI HOUSING DEL SITO STESSO - ANNO 2018.IMPEGNO DI SPESA .CIG Z92218EC
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>09373450015</codiceFiscale>
+                    <ragioneSociale>PAOLO PAVAN</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>09373450015</codiceFiscale>
+                    <ragioneSociale>PAOLO PAVAN</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>750.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2018-01-01</dataInizio>
+                <dataUltimazione>2018-12-31</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>ZBB218ED4B</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                AFFIDAMENTO DEL SERVIZIO DI ASSISTENZA TECNICA DEL SOFTWARE "CARTELLA ON LINE" PERIODO: 1 GENNAIO 2018 - 31 DICEMBRE 2018 MEDIANTE UTILIZZO DELLA PIATTAFORMA ME.PA - CIG ZBB218ED4B
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>08568990017</codiceFiscale>
+                    <ragioneSociale>CADMO INFOR</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>08568990017</codiceFiscale>
+                    <ragioneSociale>CADMO INFOR</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>3699.96</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2018-01-01</dataInizio>
+                <dataUltimazione>2018-12-31</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>ZE4218ED8F</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                AFFIDAMENTO DEI SERVIZI DI MANUTENZIONE E ASSISTENZA DEL SISTEMA INFORMATIVO IRISCLOUD DI GESTIONE DELLE PRESENZE DEL PERSONALE DEL CONSORZIO. PERIODO: 1.1.2018-31.12.2018 - IMPEGNO DI SPESA. CIG
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>02461070043</codiceFiscale>
+                    <ragioneSociale>Iriscloud</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>02461070043</codiceFiscale>
+                    <ragioneSociale>Iriscloud</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>1600.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2018-01-01</dataInizio>
+                <dataUltimazione>2018-12-31</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>ZDF218BB30</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                SOTTOSCRIZIONE NUOVE POLIZZE ASSICURATIVE. IMPEGNI DI SPESA ANNI 2018 E 2019.CIG ZDF218BB30.
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>09743130156</codiceFiscale>
+                    <ragioneSociale>ASSITECA</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>09743130156</codiceFiscale>
+                    <ragioneSociale>ASSITECA</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>11356.50</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2018-01-01</dataInizio>
+                <dataUltimazione>2019-12-31</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>5527.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>Z60218EB51</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                AFFIDAMENTO REDAZIONE MODULO IMPLEMENTAZIONE DELLE MISURE MINIME DI SICUREZZA ALLA DITTA BIDUE SYSTEM CIG Z60218EB51.
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>05584990013</codiceFiscale>
+                    <ragioneSociale>BIDUE SYSTEM</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>05584990013</codiceFiscale>
+                    <ragioneSociale>BIDUE SYSTEM</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>1260.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2018-01-01</dataInizio>
+                <dataUltimazione>2018-12-31</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>Z9321380F4</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>BUONO N.19/2017 SOSTITUZIONE VETRO PORTA</oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>08330880017</codiceFiscale>
+                    <ragioneSociale>CONTE COSIMO</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>08330880017</codiceFiscale>
+                    <ragioneSociale>CONTE COSIMO</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>200.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-12-01</dataInizio>
+                <dataUltimazione>2017-12-31</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>200.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>ZC22076793</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>BUONO N.20/2017 ACQUISTO CANCELLERIA</oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>02044501001</codiceFiscale>
+                    <ragioneSociale>ERREBIAN SPA</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>02044501001</codiceFiscale>
+                    <ragioneSociale>ERREBIAN SPA</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>1226.28</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-12-01</dataInizio>
+                <dataUltimazione>2017-12-01</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>7312382086</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                SERVIZI EDUCATIVI DIURNI E TERRITORIALI AI MINORI IN CARICO AI SERVIZI SOCIO ASSISTENZIALI
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>02863400012</codiceFiscale>
+                    <ragioneSociale>LA CARABATTOLA</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>02863400012</codiceFiscale>
+                    <ragioneSociale>LA CARABATTOLA</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>211936.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2018-01-01</dataInizio>
+                <dataUltimazione>2018-12-31</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>Z0F205C6AC</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>BUONO N.12/2017 CORSO FORMAZIONE SUI DECRETI MADIA</oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>03635090875</codiceFiscale>
+                    <ragioneSociale>PUBLIFORMEZ</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>03635090875</codiceFiscale>
+                    <ragioneSociale>PUBLIFORMEZ</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>300.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-11-01</dataInizio>
+                <dataUltimazione>2017-11-30</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>Z2D2048B34</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                BUONO N.11/2017 CORSO FORMAZIONE DECRETI ATTUATIVI LEGGE MADIA
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>03635090875</codiceFiscale>
+                    <ragioneSociale>PUBBLIFORMEZ</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>03635090875</codiceFiscale>
+                    <ragioneSociale>PUBBLIFORMEZ</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>1000.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-11-01</dataInizio>
+                <dataUltimazione>2017-11-30</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>Z8A20B07B1</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>
+                BUONO N.15/2017 CORSO FORMAZIONE WELFARE E DOMICILIARITA'
+            </oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>07046960014</codiceFiscale>
+                    <ragioneSociale>LA BOTTEGA DEL POSSIBILE</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>07046960014</codiceFiscale>
+                    <ragioneSociale>LA BOTTEGA DEL POSSIBILE</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>57.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-11-01</dataInizio>
+                <dataUltimazione>2017-11-30</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>7391F34D6D</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>INSERIMENTO MINORE IN CENTRO DIURNO</oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>00000000000</codiceFiscale>
+                    <ragioneSociale>CASA BENEFICA</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>00000000000</codiceFiscale>
+                    <ragioneSociale>CASA BENEFICA</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>952.38</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-07-01</dataInizio>
+                <dataUltimazione>2017-12-31</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>Z0861F34CC</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>INSERIMENTO IN CENTRO DIURNO MINORE</oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>00000000000</codiceFiscale>
+                    <ragioneSociale>OMISSIS</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>00000000000</codiceFiscale>
+                    <ragioneSociale>OMISSIS</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>2947.62</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-07-01</dataInizio>
+                <dataUltimazione>2017-12-31</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>ZAC1F31130</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>INSERIMENTO MINORE IN COMUNITA'</oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>00000000000</codiceFiscale>
+                    <ragioneSociale>CEMEA PIEMONTE</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>00000000000</codiceFiscale>
+                    <ragioneSociale>CEMEA PIEMONTE</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>35280.00</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-07-01</dataInizio>
+                <dataUltimazione>2017-12-31</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.00</importoSommeLiquidate>
+        </lotto>
+        <lotto>
+            <cig>0000000000</cig>
+            <strutturaProponente>
+                <codiceFiscaleProp>95546580010</codiceFiscaleProp>
+                <denominazione>C.I.S.A.P.</denominazione>
+            </strutturaProponente>
+            <oggetto>BUONO N.20/2017 ACQUISTO CANCELLERIA</oggetto>
+            <sceltaContraente>23-AFFIDAMENTO IN ECONOMIA - AFFIDAMENTO DIRETTO</sceltaContraente>
+            <partecipanti>
+                <partecipante>
+                    <codiceFiscale>02044501001</codiceFiscale>
+                    <ragioneSociale>ERREBIAN SPA</ragioneSociale>
+                </partecipante>
+            </partecipanti>
+            <aggiudicatari>
+                <aggiudicatario>
+                    <codiceFiscale>02044501001</codiceFiscale>
+                    <ragioneSociale>ERREBIAN SPA</ragioneSociale>
+                </aggiudicatario>
+            </aggiudicatari>
+            <importoAggiudicazione>2299.02</importoAggiudicazione>
+            <tempiCompletamento>
+                <dataInizio>2017-12-01</dataInizio>
+                <dataUltimazione>2017-12-01</dataUltimazione>
+            </tempiCompletamento>
+            <importoSommeLiquidate>0.00</importoSommeLiquidate>
+        </lotto>
+    </data>
+</legge190:pubblicazione>
