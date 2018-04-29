@@ -18,7 +18,8 @@ class RDFConverter:
         self.input_file = input_file
         self.graph = Graph()
         self.data  = pd.read_csv(input_file, sep=sep, dtype=object, chunksize=chunksize)
-
+        self.chunksize = chunksize
+        
         self.__num_gara  = 0
         self.__num_pa    = 0
         self.__num_fornitore = 0
@@ -43,12 +44,11 @@ class RDFConverter:
                     print(exc_type, fname, exc_tb.tb_lineno)
                     print(row)
                     traceback.format_exc()
-                    # log_error(str(e))
                     print()
 
                 if(index % 100000 == 0):
-                    print(index)
-        print("--- Triples generated ---")
+                    print(index, end=" ")
+        print("\n\n--- Triples generated ---")
     
     def __convert_row(self, row):
         current_gara = URIRef( RDFConverter.gara + self.__get_new_id("gara") )
@@ -57,7 +57,8 @@ class RDFConverter:
         # extra triples
         self.add_triple(current_gara, RDF.type, RDFConverter.tds.gara)
         self.add_triple(current_pa,   RDF.type, RDFConverter.tds.pa)
-        self.add_triple(current_pa, RDFConverter.rel.propone, current_gara)
+        self.add_triple(current_pa,   RDFConverter.rel.propone, current_gara)
+        self.add_triple(current_gara, RDFConverter.rel.proposta_da, current_pa)
 
         # cells triples
         # -- cig
@@ -67,7 +68,7 @@ class RDFConverter:
         self.__convert_cf_pa(current_pa, row['cfStrutturaProponente'])
 
         # -- denominazioneStrutturaProponente
-        self.__convert_denominazione_pa(current_pa, row['cfStrutturaProponente'])
+        self.__convert_denominazione_pa(current_pa, row['denominazioneStrutturaProponente'])
 
         # -- oggetto
         self.__convert_oggetto(current_gara, row['oggetto'])
@@ -76,10 +77,10 @@ class RDFConverter:
         self.__convert_scelta_contraente(current_gara, row['sceltaContraente'])
 
         # -- importoAggiudicazione
-        self.__convert_importo_aggiudicazione(current_gara, RDFConverter.to_float_but_carefully(row['importoAggiudicazione']))
+        self.__convert_importo_aggiudicazione(current_gara, RDFConverter.__to_float_but_carefully(row['importoAggiudicazione']))
         
         # -- importoSommeLiquidate
-        self.__convert_importo_somme_liquidate(current_gara, RDFConverter.to_float_but_carefully(row['importoSommeLiquidate']))
+        self.__convert_importo_somme_liquidate(current_gara, RDFConverter.__to_float_but_carefully(row['importoSommeLiquidate']))
         
         # -- dataInizio
         self.__convert_data_inizio(current_gara, row['dataInizio'])
@@ -92,7 +93,6 @@ class RDFConverter:
         
         # -- jsonAggiudicatari
         self.__convert_aggiudicatari(current_gara, row['jsonAggiudicatari'])
-
 
 
     def __convert_cig(self, current_gara, cig):
@@ -131,6 +131,7 @@ class RDFConverter:
                 fornitore = self.__get_fornitore(partecipante['codiceFiscale'])
                 self.add_triple(fornitore, RDF.type, RDFConverter.tds.fornitore)
                 self.add_triple(fornitore, RDFConverter.rel.partecipa, current_gara)
+                self.add_triple(current_gara, RDFConverter.rel.partecipante, fornitore)
 
                 self.add_literal_triple(fornitore, RDFConverter.rel.cf,  partecipante['codiceFiscale'])
                 self.add_literal_triple(fornitore, RDFConverter.rel.ife, partecipante['identificativoFiscaleEstero'])
@@ -146,8 +147,10 @@ class RDFConverter:
                     fornitore = self.__get_fornitore(membro['codiceFiscale'])
                     self.add_triple(fornitore,  RDF.type, RDFConverter.tds.fornitore)
                     self.add_triple(fornitore,  RDFConverter.rel.membro, blank_node)
+                    self.add_triple(blank_node, RDFConverter.rel.ha_membro, fornitore)
                     self.add_triple(fornitore,  URIRef(RDFConverter.rel + membro['ruolo'][3:].replace(" ", "-")), blank_node)
                     self.add_triple(blank_node, RDFConverter.rel.partecipa, current_gara)
+                    self.add_triple(current_gara, RDFConverter.rel.partecipante, blank_node)
 
                     self.add_literal_triple(fornitore, RDFConverter.rel.cf,  membro['codiceFiscale'])
                     self.add_literal_triple(fornitore, RDFConverter.rel.ife, membro['identificativoFiscaleEstero'])
@@ -160,7 +163,8 @@ class RDFConverter:
             for aggiudicatario in json_aggiudicatari["aggiudicatario"]:
                 fornitore = self.__get_fornitore(aggiudicatario['codiceFiscale'])
                 self.add_triple(fornitore, RDF.type, RDFConverter.tds.fornitore)
-                self.add_triple(fornitore, RDFConverter.rel.vince, current_gara)
+                # self.add_triple(fornitore, RDFConverter.rel.vince, current_gara)
+                self.add_triple(current_gara, RDFConverter.rel.vincitore, fornitore)
 
                 self.add_literal_triple(fornitore, RDFConverter.rel.cf, aggiudicatario['codiceFiscale'])
                 self.add_literal_triple(fornitore, RDFConverter.rel.ife, aggiudicatario['identificativoFiscaleEstero'])
@@ -173,7 +177,8 @@ class RDFConverter:
             query_result = self.graph.query(query)
             if len(query_result) == 1:
                 for res in query_result:
-                    self.add_triple(res[0], RDFConverter.rel.vince, current_gara)
+                    # self.add_triple(res[0], RDFConverter.rel.vince, current_gara)
+                    self.add_triple(current_gara, RDFConverter.rel.vincitore, res[0])
         
 
 
@@ -188,7 +193,7 @@ class RDFConverter:
 
         query = """SELECT DISTINCT ?n
                    WHERE {""" + query_params + """
-                    ?n rel:partecipa <""" + str(gara) + """> .
+                       ?n rel:partecipa <""" + str(gara) + """> .
                 }"""
 
         return query
@@ -204,9 +209,7 @@ class RDFConverter:
             print("!!! Bad Triple: " + str(s) + " " + str(p) + " " + str(o))
             print("!!! Bad Triple: " + s + " " + p + " " + o)
             traceback.format_exc()
-            # log_error(str(e))
             print(e)
-            # print(exc_type, fname, exc_tb.tb_lineno + "\n")
 
     def add_literal_triple(self, s, p, o):
         if s and p and o and o is not None:
@@ -214,12 +217,18 @@ class RDFConverter:
                 o = o.replace(" ", "-")
             self.graph.add( (s, p, Literal(o)) )
 
-    def print_on_file(self, output_file, format="turtle"):
+    def serialize(self, output_file, format="turtle"):
+        self.__serialize_triples(output_file, format=format)
+        print("Triples serialized on:", str(output_file))
+        types_file = output_file.rsplit('/', 1)[0] + "/types_" + output_file.rsplit('/', 1)[1] + ".txt"
+        self.__serialize_types(types_file)
+        print("Types serialized on:", types_file)
+        
+    def __serialize_triples(self, output_file, format="turtle"):
         serialized = self.graph.serialize(format=format)
-
         with open(output_file, "w+") as file:
             file.write(str(serialized, "utf-8").replace("\\n", "\n"))
-
+        
     def __get_pa(self, cf_pa):
         node = self.graph.value(None, RDFConverter.rel.cf, Literal(cf_pa))
         if not node:
@@ -232,12 +241,16 @@ class RDFConverter:
             node = URIRef(RDFConverter.fornitore + self.__get_new_id("fornitore"))
         return node
 
-    def to_float_but_carefully(s):
+    def __to_float_but_carefully(s):
         try:
             return float(s)
         except ValueError:
             return s
-
+        
+    def __serialize_types(self, output_file):
+        with open(output_file, "w+") as file:
+            for s, p, o in self.graph.triples( (None, RDF.type, None) ):
+                file.write(str(s) + "\t" + str(o) + "\n")
 
     def __get_new_id(self, node_type):
         id = ""
