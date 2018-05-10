@@ -128,6 +128,9 @@ public class AnacAnalyzer {
                 continue;
 
             Long startingTime = System.currentTimeMillis();
+            String codiceFiscaleStrutturaProponente = indice.codiceFiscale;
+            String ragioneSocialeStrutturaProponente = indice.ragioneSociale;
+
 
             List<Pubblicazione.Data.Lotto> lotti = c.run(indice.url);
             ArrayList<StorableLotto> storableLottoList = new ArrayList<>();
@@ -139,8 +142,9 @@ public class AnacAnalyzer {
                 BigDecimal importoSommeLiquidate = lotto.getImportoSommeLiquidate();
                 String dataInizio = null;
                 String dataUltimazione = null ;
-                String codiceFiscaleStrutturaProponente = lotto.getStrutturaProponente().getCodiceFiscaleProp();
-                String ragioneSocialeStrutturaProponente = lotto.getStrutturaProponente().getDenominazione();
+                //String codiceFiscaleStrutturaProponente = lotto.getStrutturaProponente().getCodiceFiscaleProp();
+                //String ragioneSocialeStrutturaProponente = lotto.getStrutturaProponente().getDenominazione();
+
 
                 if(lotto.getTempiCompletamento()!= null){
                     SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
