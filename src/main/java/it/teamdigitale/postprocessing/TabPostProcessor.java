@@ -48,11 +48,11 @@ public class TabPostProcessor {
 
     public static void main(String[] args) throws IOException {
        // String input = "notebooks/data/anac/anacDataset_1522836870094.csv";
-       String output = "notebooks/data/anac/anacDataset_1522836870094_postprocessed2.tsv";
+       String output = "notebooks/data/anac/anacDataset_postprocessed2.tsv";
 
        // run(input,output);
 
-        String input = "notebooks/data/anac/anacDataset_1522836870094_postprocessed.tsv";
+        String input = "notebooks/data/anac/anacDataset_postprocessed.tsv";
         File fileOutputFilename = new File(output);
 
         int count = 0;
@@ -69,12 +69,12 @@ public class TabPostProcessor {
                     FileUtils.writeStringToFile(fileOutputFilename, newString + "\n", Charset.defaultCharset(), true);
                     wrong_size ++;
                 } else {
-
+                    System.out.println("Error " + line);
                 }
             }
         }
 
-        System.out.println("Total wrong size " + wrong_size);
+        System.out.println("Total correct size " + wrong_size);
 
 
     }
