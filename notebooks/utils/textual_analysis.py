@@ -145,6 +145,9 @@ def top_feats_in_doc(Xtr, features, row_id, top_n=25):
 def get_best_terms_frequencies(Xtr, features, rows_id, top_n=25):
     return [' '.join(top_feats_in_doc(Xtr,  features, row ,top_n)) for row in rows_id]
 
+def get_best_terms_frequencies_iterator(Xtr, features, rows_id, top_n=25):
+    yield (' '.join(top_feats_in_doc(Xtr,  features, row ,top_n)) for row in rows_id)    
+
 def calculate_embedding(tf, tfidf_matrix, embedding_model, n_rows, weigth_embedding = False) :
     """
     tf: Tf-idf vectorizer
