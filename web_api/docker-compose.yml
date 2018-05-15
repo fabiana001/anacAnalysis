@@ -10,3 +10,6 @@ services:
       - "7474:7474"
       - "7687:7687"
       - "7473:7473"
+    volumes:
+      - ./neo4j_data:/var/lib/neo4j/data
+
