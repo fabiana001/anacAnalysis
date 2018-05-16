@@ -1,3 +1,9 @@
 .idea
 *.iml
 target
+notebooks/.ipynb_checkpoints/
+notebooks/Untitled.ipynb
+notebooks/data/
+notebooks/imgs/top40_words_plot.png
+web_api/src/__pycache__/
+web_api/data

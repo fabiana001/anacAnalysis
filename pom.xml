@@ -57,7 +57,7 @@
                     </executions>
                     <configuration>
                         <sources>
-                            <source>/Users/fabiana/git/anac_crawling/src/main/java/it/teamdigitale/xmlschema</source>
+                            <source>/home/fabiana/git/anacAnalysis/src/main/java/it/teamdigitale/xmlschema</source>
                         </sources>
                         <xjbSources>
                             <xjbSource>src/main/resources/bindings.xjb</xjbSource>
