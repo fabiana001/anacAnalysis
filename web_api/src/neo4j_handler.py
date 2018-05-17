@@ -4,7 +4,7 @@ import json
 
 class Node(object):
     def __init__(self, type_id, node_type, id_s, fiscal_code, relevant_terms, 
-            region, province, city, address, istat_code, adm_code, company_name, company_type, nation):
+            region, province, city, address, istat_code, adm_code, name, company_type, nation):
         self.type_id = type_id
         self.node_type = node_type
         self.id = id_s
@@ -16,7 +16,7 @@ class Node(object):
         self.address = address
         self.istat_code = istat_code
         self.administrative_code = adm_code
-        self.company_name = company_name
+        self.name = name
         self.company_type = company_type
         self.nation = nation
 
@@ -69,14 +69,16 @@ class Py2NeoHandler(object):
         self.relevant_terms_query = "MATCH  (n:Node)-[r:semantic_connected]->(b) WHERE n.relevant_terms contains '{}' return n,r,b limit 1;"
         self.fiscal_code_query = "MATCH  (n:Node)-[r]->(b) WHERE n.fiscal_code contains '{}' return n,r,b limit 1;"
 
+        # MATCH (a:Node)-[r]->(b:Node) where a.relevant_terms CONTAINS 'vino' or b.relevant_terms CONTAINS 'vino' RETURN a,r,b LIMIT 10
+
     def _create_query_relevant_terms(self, query_terms, limit=10000):
-        base_query = "MATCH  (n:Node)-[r]->(b)"
-        base_where = " WHERE n.relevant_terms contains '{}' or "
+        base_query = "MATCH  (n:Node)-[r]->(b:Node)"
+        base_where = " WHERE n.relevant_terms contains '{}' or b.relevant_terms contains '{}' or "
         base_return = "return n,r,b limit {};"
 
         composed_query = base_query
         for term in query_terms.split(' '):
-            composed_query += base_where.format(term)
+            composed_query += base_where.format(term, term)
         composed_query = composed_query[:-4]
         composed_query += base_return.format(limit)
         return composed_query
@@ -102,7 +104,7 @@ class Py2NeoHandler(object):
             address = self._get_or_else(props['address'], ''),
             istat_code = self._get_or_else(props['istat_code'], ''),
             adm_code = self._get_or_else(props['administrative_code'], ''),
-            company_name = self._get_or_else(props['company_name'], ''),
+            name = self._get_or_else(props['name'], ''),
             company_type = self._get_or_else(props['company_type'], ''),
             nation = self._get_or_else(props['nation'], ''),
         )
@@ -119,12 +121,12 @@ class Py2NeoHandler(object):
         links = set()
 
         for src, rel, dst in self.graph.run(querystring):
-            src_node = self._create_node(src)
-            dst_node = self._create_node(dst)
-            link = self._create_link(src_node.id, rel, dst_node.id)
-
-            nodes.add(src_node)
-            nodes.add(dst_node)
-            links.add(link)
+                src_node = self._create_node(src)
+                dst_node = self._create_node(dst)
+                if len(str(src_node.id)) > 0 and len(str(dst_node.id)) > 0:
+                    link = self._create_link(src_node.id, rel, dst_node.id)
+                    nodes.add(src_node)
+                    nodes.add(dst_node)
+                    links.add(link)
 
         return Result(list(nodes), list(links))

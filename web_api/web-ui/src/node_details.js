@@ -1,26 +1,41 @@
 import React from 'react';
-import { Card, CardBody, CardSubtitle, CardTitle, CardText, CardLink } from 'reactstrap';
+import { Card, CardBody, CardSubtitle, CardTitle, CardText, CardLink, CardHeader } from 'reactstrap';
 
 class NodeDetails extends React.Component {
 
 	constructor(props) {
 		super(props);
+		this.paCard = this.paCard.bind(this);
+	}
+
+
+	paCard(node) {
+	      let card = 
+		      <Card>
+		        <CardHeader>Public Administration</CardHeader>
+		        <CardBody>
+		          <CardTitle>{node.istat_code}</CardTitle>
+		          <CardText><b>fiscal_code:</b> {node.fiscal_code}</CardText>
+		          <CardText><b>Address:</b> {node.address}, {node.city}, {node.province}, {node.region} </CardText>
+		        </CardBody>
+		        <CardBody>
+		          <CardSubtitle>Relevant Terms</CardSubtitle>
+		          <CardText>{node.relevant_terms}</CardText>
+		        </CardBody>
+		      </Card>
+
+      return (
+      		card
+      	);
+
 	}
 
 	render() {
+		let node = this.props.node;
+		console.log(this.props.node);
 		return (
 		    <div>
-		      <Card>
-		        <CardBody>
-		          <CardTitle>Card title</CardTitle>
-		          <CardSubtitle>Card subtitle</CardSubtitle>
-		        </CardBody>
-		        <CardBody>
-		          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-		          <CardLink href="#">Card Link</CardLink>
-		          <CardLink href="#">Another Link</CardLink>
-		        </CardBody>
-		      </Card>
+		    	{ this.paCard(node) }
 		    </div>
 		  );
 	}

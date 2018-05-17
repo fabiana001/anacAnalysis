@@ -10,7 +10,8 @@ class GraphComponent extends React.Component {
         this.genRandomTree = this.genRandomTree.bind(this);
         this.onNodeClick = this.onNodeClick.bind(this);
         this.state = {
-        	node_detail: ''
+        	node_detail: '',
+        	colors: ['#28a745', '#007bff']
         };
 	}
 
@@ -28,7 +29,6 @@ class GraphComponent extends React.Component {
     }
 
     onNodeClick(n) {
-    	console.log(n);
     	this.setState({
     		node_detail: n
     	});
@@ -40,8 +40,6 @@ class GraphComponent extends React.Component {
 		if (this.props.data.success){
 			data = this.props.data.result;
 		}
-		if (this.state.node_detail != '')
-			console.log(this.state.n);
 
 		return (
 			<div>
@@ -51,19 +49,21 @@ class GraphComponent extends React.Component {
 						  height = {800}
 				          graphData={data}
 				          nodeLabel="fiscal_code"
-				          nodeAutoColorBy="struct_type"
 				          linkDirectionalParticles="value"
-				          backgroundColor = "white"
-				          nodeColor = "#dc3545"
+				          nodeColor = {(node) => {
+				          		return this.state.colors[node.type_id];
+				          	}
+				          }
 				          onNodeClick = {this.onNodeClick}
-				          showNavInfo = {true}
 				          nodeRelSize = {6}
 				          linkDirectionalParticleSpeed={d => d.value * 0.005}
 				        />
 				     </Col>
-				     <Col xs="3">
-				     	<NodeDetails />
-				     </Col>
+				     {this.state.node_detail != '' && 
+					     <Col xs="3">
+					     	<NodeDetails node={this.state.node_detail} />
+					     </Col>
+				 	  }
 			     </Row>
 		     </div>
 			);
