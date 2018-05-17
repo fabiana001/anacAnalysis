@@ -10,6 +10,11 @@ services:
       - "7474:7474"
       - "7687:7687"
       - "7473:7473"
+    environment:
+      - dbms.memory.pagecache.size=2GB
+      - dbms.memory.heap.max_size=16GB
+      - dbms.memory.heap.initial_size=8GB
+
     volumes:
       - ./neo4j_data:/var/lib/neo4j/data
 

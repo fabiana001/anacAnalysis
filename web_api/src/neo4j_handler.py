@@ -1,6 +1,6 @@
 from py2neo import Graph
-import json
-
+import time
+from lru import LRU
 
 class Node(object):
     def __init__(self, type_id, node_type, id_s, fiscal_code, relevant_terms, 
@@ -66,21 +66,33 @@ class Result(object):
 class Py2NeoHandler(object):
     def __init__(self, host, user, pwd):
         self.graph = Graph(host=host, user=user, password=pwd)
-        self.relevant_terms_query = "MATCH  (n:Node)-[r:semantic_connected]->(b) WHERE n.relevant_terms contains '{}' return n,r,b limit 1;"
-        self.fiscal_code_query = "MATCH  (n:Node)-[r]->(b) WHERE n.fiscal_code contains '{}' return n,r,b limit 1;"
+        self.lru_cache = LRU(100)
+
 
         # MATCH (a:Node)-[r]->(b:Node) where a.relevant_terms CONTAINS 'vino' or b.relevant_terms CONTAINS 'vino' RETURN a,r,b LIMIT 10
+        # MATCH (a:Node)-[r]->(b) where a.id_s > 0 and a.id_s < 100 and b.id_s > 0 and b.id_s < 100 return a,r,b LIMIT 1000
 
     def _create_query_relevant_terms(self, query_terms, limit=10000):
-        base_query = "MATCH  (n:Node)-[r]->(b:Node)"
-        base_where = " WHERE n.relevant_terms contains '{}' or b.relevant_terms contains '{}' or "
-        base_return = "return n,r,b limit {};"
+        base_query = "MATCH  (a:Node)-[r]->(b:Node) "
+        base_where = " (a.relevant_terms contains '{}' and b.relevant_terms contains '{}') and "
+        base_return = " return a,r,b limit {};"
 
         composed_query = base_query
-        for term in query_terms.split(' '):
-            composed_query += base_where.format(term, term)
-        composed_query = composed_query[:-4]
+        term_split = query_terms.split()
+        print(term_split)
+
+        if len(term_split) > 0:
+            composed_query += " WHERE "
+
+        for term in query_terms.split():
+            mod_term = ' {}:'.format(term)
+            composed_query += base_where.format(mod_term, mod_term)
+
+        if len(term_split) > 0:
+            composed_query = composed_query[:-4]
+
         composed_query += base_return.format(limit)
+        print('query ' + composed_query)
         return composed_query
 
     def _get_or_else(self, value, default):
@@ -115,18 +127,29 @@ class Py2NeoHandler(object):
         return Link(src_id, dst_id, props['score'])
 
     def query_by_relevant_terms(self, query_terms, limit=1000):
-        querystring = self._create_query_relevant_terms(query_terms, limit)
+        start = time.time()
+        if query_terms in self.lru_cache:
+            end = time.time()
+            print('query in time {}'.format(end - start))
+            return self.lru_cache.get(query_terms)
+        else:
+            querystring = self._create_query_relevant_terms(query_terms, limit)
 
-        nodes = set()
-        links = set()
+            nodes = set()
+            links = set()
 
-        for src, rel, dst in self.graph.run(querystring):
-                src_node = self._create_node(src)
-                dst_node = self._create_node(dst)
-                if len(str(src_node.id)) > 0 and len(str(dst_node.id)) > 0:
-                    link = self._create_link(src_node.id, rel, dst_node.id)
-                    nodes.add(src_node)
-                    nodes.add(dst_node)
-                    links.add(link)
+            for src, rel, dst in self.graph.run(querystring):
+                    src_node = self._create_node(src)
+                    dst_node = self._create_node(dst)
+                    if len(str(src_node.id)) > 0 and len(str(dst_node.id)) > 0:
+                        link = self._create_link(src_node.id, rel, dst_node.id)
+                        nodes.add(src_node)
+                        nodes.add(dst_node)
+                        links.add(link)
 
-        return Result(list(nodes), list(links))
+            end = time.time()
+            print('query in time {}'.format(end - start))
+            result =  Result(list(nodes), list(links))
+            self.lru_cache[query_terms] = result
+            return result
+

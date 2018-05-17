@@ -5,18 +5,22 @@ from flask_cors import CORS
 import os
 import json
 from neo4j_handler import *
+from flask_compress import Compress
 
 
 # create the app
 app = flask.Flask("api-server", static_folder='public')
 CORS(app)
+Compress(app)
 
 # read these parameters from env
-host = 'localhost'
+host = '131.1.252.119'  #'localhost'
 user = 'neo4j'
 password = 'password'
+max_nodes = 20000
 
 py2neo_handler = Py2NeoHandler(host=host, user=user, pwd=password)
+py2neo_handler.query_by_relevant_terms("", max_nodes)
 
 
 @app.route('/', defaults={'path': ''})
@@ -42,11 +46,11 @@ def predict():
         if 'queryterms' in post_object:
             queryterms = post_object['queryterms']
             try:
-                results = py2neo_handler.query_by_relevant_terms(queryterms)
+                results = py2neo_handler.query_by_relevant_terms(queryterms, max_nodes)
+                response['queryterms'] = queryterms
                 response['success'] = True
                 response['result'] = results.to_json()
             except Exception as e:
-                print(e)
                 response['success'] = False
                 response['error'] = "Error executing query {}".format(e)
 

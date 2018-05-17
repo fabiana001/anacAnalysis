@@ -4,7 +4,8 @@ import {
     InputGroup,
     Input,
     InputGroupAddon,
-    Button
+    Button,
+    Badge
 } from 'reactstrap';
 
 import { Api } from './Api';
@@ -26,21 +27,20 @@ export default class SearchComponent extends React.Component {
         };
         this.api.queryByRelevantTerms(this.state.queryterms)
             .then((result) => {
-                console.log('first result');
                 this.setState({
-                    data: result
+                    data: result,
+                    button_enabled: true
                 });
             });
     }
 
     onClick(event) {
         event.preventDefault()
-
         this.api.queryByRelevantTerms(this.state.queryterms)
         .then((result) => {
-            console.log('first result');
             this.setState({
-                data: result
+                data: result,
+                button_enabled: true
             });
         });
     }
@@ -48,33 +48,46 @@ export default class SearchComponent extends React.Component {
     inputChange(event) {
         event.preventDefault();
         this.setState({
-            queryterms: event.target.value
+            queryterms: event.target.value,
+            button_enabled: false
         });
     }
 
     render() {
 
         const graph = this.state.data.success ? (
-                <GraphComponent data={this.state.data}/>
+                <GraphComponent display_detail={false} data={this.state.data}/>
             ) : (
                 <div>
                   <MDSpinner size={100} />
                 </div>
             )
 
+        const button = this.state.button_enabled ? (
+            <InputGroupAddon addonType="append"><Button onClick={this.onClick}>Search</Button></InputGroupAddon>
+        ) : (
+            <InputGroupAddon addonType="append"><Button onClick={this.onClick} >Search</Button></InputGroupAddon>
+        )
+
         return (
             <div className="">
                 <Row>
-                    <Container className="">
+                     <Container className="">
                         <Col sm="12" md={{size: 8, offset: 2}}>
                             <InputGroup onClick={(e) => e.preventDefault()}>
                                 <Input id="search" value={this.state.queryterms} onChange={this.inputChange}/>
-                                <InputGroupAddon addonType="append"><Button onClick={this.onClick}>Search</Button></InputGroupAddon>
+                                { button }
                             </InputGroup>
                         </Col>
                     </Container>
                 </Row>
-                <Row  className="top-buffer">
+                <Row>
+                    <Container className="">
+                        <Badge color="danger">Public Administration</Badge>
+                        <Badge color="primary">Company</Badge>    
+                    </Container>       
+                </Row>
+                <Row className="top-buffer">       
                 </Row>
                 <Row>
                     <Col>
