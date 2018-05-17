@@ -3,7 +3,12 @@ services:
   web:
     build: .
     ports:
-      - "5000:5000"
+      - "80:5000"
+    environment:
+      - HOST=neo4j
+      - NEO4J_USERNAME=neo4j
+      - ENV NEO4J_PASSWORD=password
+      - ENV max_nodes=10000
   neo4j:
     image: neo4j
     ports:
