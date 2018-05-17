@@ -23,7 +23,10 @@ print("connecting to host {}".format(host))
 
 user = 'neo4j'
 password = 'password'
+
 max_nodes = 20000
+if 'max_nodes' in os.environ:
+    max_nodes = os.environ['max_nodes']
 
 py2neo_handler = Py2NeoHandler(host=host, user=user, pwd=password)
 py2neo_handler.query_by_relevant_terms("", max_nodes)
