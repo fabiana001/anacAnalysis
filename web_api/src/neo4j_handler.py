@@ -3,12 +3,23 @@ import json
 
 
 class Node(object):
-    def __init__(self, id_s, struct_type, text, relevant_terms, fiscal_code):
+    def __init__(self, type_id, node_type, id_s, fiscal_code, relevant_terms, 
+            region, province, city, address, istat_code, adm_code, company_name, company_type, nation):
+        self.type_id = type_id
+        self.node_type = node_type
         self.id = id_s
-        self.struct_type = struct_type
-        self.text = text
-        self.relevant_terms = relevant_terms
         self.fiscal_code = fiscal_code
+        self.relevant_terms = relevant_terms
+        self.region = region
+        self.province = province
+        self.city = city
+        self.address = address
+        self.istat_code = istat_code
+        self.administrative_code = adm_code
+        self.company_name = company_name
+        self.company_type = company_type
+        self.nation = nation
+
 
     def __repr__(self):
         return str(self.__dict__)
@@ -20,7 +31,7 @@ class Node(object):
         return str(self.__dict__)
 
     def __hash__(self):
-        return hash((self.id, self.struct_type, self.fiscal_code))
+        return hash((self.id, self.fiscal_code))
 
 
 class Link(object):
@@ -55,11 +66,11 @@ class Result(object):
 class Py2NeoHandler(object):
     def __init__(self, host, user, pwd):
         self.graph = Graph(host=host, user=user, password=pwd)
-        self.relevant_terms_query = "MATCH  (n:Struttura)-[r:SEMANTIC]->(b) WHERE n.relevant_terms contains '{}' return n,r,b limit 1;"
-        self.fiscal_code_query = "MATCH  (n:Struttura)-[r:SEMANTIC]->(b) WHERE n.codice_fiscale contains '{}' return n,r,b limit 1;"
+        self.relevant_terms_query = "MATCH  (n:Node)-[r:semantic_connected]->(b) WHERE n.relevant_terms contains '{}' return n,r,b limit 1;"
+        self.fiscal_code_query = "MATCH  (n:Node)-[r]->(b) WHERE n.fiscal_code contains '{}' return n,r,b limit 1;"
 
-    def _create_query_relevant_terms(self, query_terms, limit=1000):
-        base_query = "MATCH  (n:Struttura)-[r:SEMANTIC]->(b)"
+    def _create_query_relevant_terms(self, query_terms, limit=10000):
+        base_query = "MATCH  (n:Node)-[r]->(b)"
         base_where = " WHERE n.relevant_terms contains '{}' or "
         base_return = "return n,r,b limit {};"
 
@@ -76,21 +87,24 @@ class Py2NeoHandler(object):
         else:
             return default
 
-    def _enum_struct_type(self, t):
-        if t == 'AGG':
-            return 4
-        else:
-            return 8
-
     def _create_node(self, n):
         props = dict(n)
 
         node = Node(
-            id_s=self._get_or_else(props['id_s'], ''),
-            struct_type=self._enum_struct_type(self._get_or_else(props['tipo_struttura'], 0)),
-            text=self._get_or_else(props['oggetto'][:200], ''),
-            relevant_terms=self._get_or_else(props['relevant_terms'], ''),
-            fiscal_code=self._get_or_else(props['codice_fiscale'], '')
+            type_id =  self._get_or_else(props['type_id'], ''),
+            node_type = self._get_or_else(props['node_type'], ''),
+            id_s = self._get_or_else(props['id_s'], ''),
+            fiscal_code = self._get_or_else(props['fiscal_code'], ''),
+            relevant_terms = self._get_or_else(props['relevant_terms'], ''),
+            region = self._get_or_else(props['region'], ''),
+            province = self._get_or_else(props['province'], ''),
+            city = self._get_or_else(props['city'], ''),
+            address = self._get_or_else(props['address'], ''),
+            istat_code = self._get_or_else(props['istat_code'], ''),
+            adm_code = self._get_or_else(props['administrative_code'], ''),
+            company_name = self._get_or_else(props['company_name'], ''),
+            company_type = self._get_or_else(props['company_type'], ''),
+            nation = self._get_or_else(props['nation'], ''),
         )
         return node
 
