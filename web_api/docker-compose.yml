@@ -5,6 +5,7 @@ services:
     ports:
       - "80:5000"
     environment:
+#      - HOST=131.1.252.119
       - HOST=neo4j
       - NEO4J_USERNAME=neo4j
       - ENV NEO4J_PASSWORD=password

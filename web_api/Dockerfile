@@ -1,11 +1,11 @@
-FROM python:3.6-alpine
+FROM python:3.6
 
 WORKDIR /app
 
-ADD requirements.txt /app
-ADD app.py /app
-ADD neo4j_handler.py /app
-ADD public /app/public
+COPY requirements.txt /app
+COPY app.py /app
+COPY neo4j_handler.py /app
+COPY public /app/public
 
 
 RUN pip install -r requirements.txt
