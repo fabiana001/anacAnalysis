@@ -5,7 +5,7 @@
 
 #### Resulting RDF graph of one row (w/out literals)
 
-<img src="" width="500" alt="rdf graph">
+<img src="https://raw.githubusercontent.com/fabiana001/anacAnalysis/rdf-analysis/notebooks/rdf-analysis/img/row.png" width="500" alt="rdf graph">
 
 #### Examples of random walks
 
