@@ -4,11 +4,19 @@ from flask import request
 from flask_cors import CORS
 import os
 import json
+from neo4j_handler import *
 
 
 # create the app
 app = flask.Flask("api-server", static_folder='public')
 CORS(app)
+
+# read these parameters from env
+host = 'localhost'
+user = 'neo4j'
+password = 'password'
+
+py2neo_handler = Py2NeoHandler(host=host, user=user, pwd=password)
 
 
 @app.route('/', defaults={'path': ''})
@@ -25,10 +33,29 @@ def healtz():
     return flask.jsonify({'healtz': 'ok'})
 
 
-@app.route('/predict', methods=['POST'])
+@app.route('/graph', methods=['POST'])
 def predict():
-    data = {'msg': 'hello world'}
-    return flask.jsonify(data)
+    response = {'success': False}
+    post_object = request.get_json()
+
+    if post_object is not None:
+        if 'queryterms' in post_object:
+            queryterms = post_object['queryterms']
+            try:
+                results = py2neo_handler.query_by_relevant_terms(queryterms)
+                response['success'] = True
+                response['result'] = results.to_json()
+            except Exception as e:
+                print(e)
+                response['success'] = False
+                response['error'] = "Error executing query {}".format(e)
+
+        else:
+            response['message'] = 'missing queryterms'
+    else:
+        response['message'] = 'missing json body'
+
+    return flask.jsonify(response)
 
 
 if __name__ == "__main__":

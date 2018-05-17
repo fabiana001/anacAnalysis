@@ -1,4 +1,8 @@
 flask
 flask-cors
 numpy
+<<<<<<< HEAD
 neomodel
+=======
+neomodel
+>>>>>>> feature/web_api
