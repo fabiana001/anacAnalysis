@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>it.teamdigitale</groupId>
-    <artifactId>anac_crawling</artifactId>
+    <artifactId>crawler</artifactId>
     <version>1.0-SNAPSHOT</version>
     <build>
             <plugins>
@@ -57,7 +57,7 @@
                     </executions>
                     <configuration>
                         <sources>
-                            <source>/home/fabiana/git/anacAnalysis/src/main/java/it/teamdigitale/xmlschema</source>
+                          <source>${project.basedir}/src/main/java/it/teamdigitale/xmlschema</source>
                         </sources>
                         <xjbSources>
                             <xjbSource>src/main/resources/bindings.xjb</xjbSource>
