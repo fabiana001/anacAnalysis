@@ -1,4 +1,7 @@
 flask
 flask-cors
 numpy
-neomodel
+py2neo
+flask-compress
+Flask-Caching
+lru_dict

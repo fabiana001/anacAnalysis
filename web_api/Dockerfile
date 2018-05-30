@@ -1,14 +1,18 @@
-FROM python:3.6-alpine
+FROM python:3.6
 
-ADD . /src
+WORKDIR /app
 
-WORKDIR /src
+COPY requirements.txt /app
+COPY app.py /app
+COPY neo4j_handler.py /app
+COPY public /app/public
 
-ADD requirements.txt .
 
 RUN pip install -r requirements.txt
 
-env NEO4J_USERNAME=username
-env NEO4J_PASSWORD=password
+ENV HOST=localhost
+ENV NEO4J_USERNAME=neo4j
+ENV NEO4J_PASSWORD=password
+ENV max_nodes=10000
 
 CMD ["python", "app.py"]
