@@ -205,7 +205,7 @@ def get_TFIDFmatrix_vect(data, do_stemming):
         tf = textual_analysis.StemmedCountVectorizer(token_pattern=u'([a-z]{2,})', min_df = min_df, analyzer="word", stop_words=stopwords.words('italian'),  norm='l2')
 
     else:
-        tf = TfidfVectorizer(token_pattern=u'([a-z]{2,})', stop_words=stopwords.words('italian'), min_df = min_df, norm='l2') #CountVectorizer supports counts of N-grams of words or consecutive characters.
+        tf = TfidfVectorizer(token_pattern=u'([a-z]{2,})',  sublinear_tf = True, use_idf = True, stop_words=stopwords.words('italian'), max_df = 0.1, min_df = min_df, norm='l2') #CountVectorizer supports counts of N-grams of words or consecutive characters.
 
     matrix = tf.fit_transform(data)
 
@@ -215,12 +215,13 @@ def plotTopNWords(sorted_frequents_words, N, title):
     """frequents_words: list of frequents words. Type: tuple(str, numpy.int64)
        N: number of words to plot
     """
-    #most_frequents_words = sorted(sorted_frequents_words, key = lambda x: x[1], reverse=True)
+
     x, y = zip(*sorted_frequents_words[0:N]) # unpack a list of pairs into two tuples
 
     fig = plt.figure()
     ax1 = fig.add_subplot(111)  # Create matplotlib axes
     ax1.set_title(title)
+    plt.ylabel('avg tf-idf score')
     ax1.plot(x, y)
 
     for tl in ax1.get_xticklabels():
