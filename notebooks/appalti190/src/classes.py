@@ -1,4 +1,6 @@
+import pycountry
 import pandas as pd
+from collections import defaultdict
 
 class Gara(object):
     """Define an object that corresponds to a Gara"""
@@ -70,7 +72,7 @@ class StazioneAppaltante(object):
         self.indirizzo = self.df['IndirizzoStazioneAppaltante'][0]
         self.provincia = self.df['ProvianciaStazioneAppaltante'][0]
         self.denominazione = self.df['DenominazioneStazioneAppaltante_cc'][0]
-        
+
     
     def _totale_appalti(self):
         """Restituisce il numero totale di appalti della stazione"""
@@ -130,4 +132,64 @@ class StazioneAppaltante(object):
         n_spec = self._appalti_affidamento_y_mag_x(lista_tipologie_affidamento, x).shape[0]
         
         return n_spec/n_tot*100
+    
+    def _elenco_partecipanti_stazione_appaltante(self):
+        """Restituisce l'elenco (con frequenza) dei partecipanti
+        alle gare pubblicatate dalla stazione appaltante
+        """
         
+        partecipanti_importi = defaultdict(float)
+        partecipanti_occorrenze = defaultdict(int)
+        for gara in self.df.iterrows():
+            list_partecipanti = gara[1]['Partecipanti']
+            for p in list_partecipanti:
+                try:
+                    nome_provincia = pycountry.subdivisions.get(code=p['OE_provincia']).name
+                    #partecipanti[(p['OE_codice_fiscale'], nome_provincia)] += 1
+                    partecipanti_importi[nome_provincia] += gara[1]['ImportoAggiudicazioneGara']#1
+                    partecipanti_occorrenze[nome_provincia] += 1
+                except KeyError as e:
+                    #partecipanti[(p['OE_codice_fiscale'], p['OE_provincia'])] += 1
+                    partecipanti_importi[p['OE_provincia']] += gara[1]['ImportoAggiudicazioneGara']#1
+                    partecipanti_occorrenze[p['OE_provincia']] += 1
+                    continue
+                except TypeError as e:
+                    #print ('None in the list')
+                    continue
+        
+        return partecipanti_importi, partecipanti_occorrenze
+    
+    def _elenco_aggiudicatari_stazione_appaltante(self):
+        """Restituisce l'elenco (con frequenza) degli aggiudicatari
+        delle gare pubblicatate dalla stazione appaltante
+        
+        ::
+        """
+        
+        aggiudicatari_importi = defaultdict(float)
+        aggiudicatari_occorrenze = defaultdict(int)
+        for gara in self.df.iterrows():
+            list_partecipanti = gara[1]['Partecipanti']
+            for p in list_partecipanti:
+                try:
+                    if p['aggiudicatario'] == '1':
+                        try:
+                            nome_provincia = pycountry.subdivisions.get(code=p['OE_provincia']).name
+                            #partecipanti[(p['OE_codice_fiscale'], nome_provincia)] += 1
+                            aggiudicatari_importi[nome_provincia] += gara[1]['ImportoAggiudicazioneGara']#1
+                            aggiudicatari_occorrenze[nome_provincia] += 1
+                        except KeyError as e:
+                            #partecipanti[(p['OE_codice_fiscale'], p['OE_provincia'])] += 1
+                            aggiudicatari_importi[p['OE_provincia']] += gara[1]['ImportoAggiudicazioneGara']#1
+                            aggiudicatari_occorrenze[p['OE_provincia']] += 1
+                            continue
+                        except TypeError as e:
+                            #print ('None in the list')
+                            continue
+                except TypeError:
+                    continue
+        
+        return aggiudicatari_importi, aggiudicatari_occorrenze
+        
+
+
